@@ -1,4 +1,4 @@
-! Title: b255ea006 â€” Ads
+! Title: b255ea006 - Ads
 ! Description: Common advertising / affiliate hosts for AdGuard Home
 ! Homepage: https://github.com/b255ea006/adguard-home-blocklists
 ! Expires: 7 days
@@ -7,8 +7,15 @@
 ||googlesyndication.com^
 ||googleadservices.com^
 ||pagead2.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||pagead.l.doubleclick.net^
+||ad.doubleclick.net^
 ||adservice.google.com^
 ||adservice.google.de^
+||adtrafficquality.google^
+||fundingchoicesmessages.google.com^
+||partner.googleadservices.com^
+||2mdn.net^
 ||adnxs.com^
 ||adsrvr.org^
 ||adform.net^
@@ -16,7 +23,6 @@
 ||adsafeprotected.com^
 ||adsymptotic.com^
 ||adcolony.com^
-||ad.doubleclick.net^
 ||media.net^
 ||outbrain.com^
 ||taboola.com^
@@ -48,3 +54,12 @@
 ||zemanta.com^
 ||mgid.com^
 ||revcontent.com^
+||yandexadexchange.net^
+||adfox.ru^
+||ad.mail.ru^
+||ads.bing.com^
+||ads.microsoft.com^
+||adnxs.net^
+||onetag-sys.com^
+||smilewanted.com^
+||seedtag.com^

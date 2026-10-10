@@ -1,4 +1,4 @@
-! Title: b255ea006 â€” Tracking
+! Title: b255ea006 - Tracking
 ! Description: Analytics and telemetry hosts for AdGuard Home
 ! Homepage: https://github.com/b255ea006/adguard-home-blocklists
 ! Expires: 7 days
@@ -6,9 +6,13 @@
 ||google-analytics.com^
 ||ssl.google-analytics.com^
 ||www.google-analytics.com^
+||region1.google-analytics.com^
+||analytics.google.com^
 ||googletagmanager.com^
 ||googletagservices.com^
 ||google-analytics.de^
+||stats.g.doubleclick.net^
+||td.doubleclick.net^
 ||scorecardresearch.com^
 ||quantserve.com^
 ||hotjar.com^
@@ -40,6 +44,7 @@
 ||bat.bing.net^
 ||facebook.net^
 ||connect.facebook.net^
+||pixel.facebook.com^
 ||tr.snapchat.com^
 ||analytics.tiktok.com^
 ||ads-api.twitter.com^
@@ -48,3 +53,9 @@
 ||app-measurement.com^
 ||firebaselogging.googleapis.com^
 ||device-metrics-pa.googleapis.com^
+||metrics.icloud.com^
+||telemetry.microsoft.com^
+||vortex.data.microsoft.com^
+||browser.events.data.microsoft.com^
+||mc.yandex.ru^
+||mc.yandex.com^

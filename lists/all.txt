@@ -1,11 +1,5 @@
-! Title: b255ea006 — All
+! Title: b255ea006 - All
 ! Description: Combined ads + tracking + malware starter lists
-! Homepage: https://github.com/b255ea006/adguard-home-blocklists
-! Expires: 7 days
-!
-
-! Title: b255ea006 â€” Ads
-! Description: Common advertising / affiliate hosts for AdGuard Home
 ! Homepage: https://github.com/b255ea006/adguard-home-blocklists
 ! Expires: 7 days
 !
@@ -13,8 +7,15 @@
 ||googlesyndication.com^
 ||googleadservices.com^
 ||pagead2.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||pagead.l.doubleclick.net^
+||ad.doubleclick.net^
 ||adservice.google.com^
 ||adservice.google.de^
+||adtrafficquality.google^
+||fundingchoicesmessages.google.com^
+||partner.googleadservices.com^
+||2mdn.net^
 ||adnxs.com^
 ||adsrvr.org^
 ||adform.net^
@@ -22,7 +23,6 @@
 ||adsafeprotected.com^
 ||adsymptotic.com^
 ||adcolony.com^
-||ad.doubleclick.net^
 ||media.net^
 ||outbrain.com^
 ||taboola.com^
@@ -54,19 +54,25 @@
 ||zemanta.com^
 ||mgid.com^
 ||revcontent.com^
-
-
-! Title: b255ea006 â€” Tracking
-! Description: Analytics and telemetry hosts for AdGuard Home
-! Homepage: https://github.com/b255ea006/adguard-home-blocklists
-! Expires: 7 days
-!
+||yandexadexchange.net^
+||adfox.ru^
+||ad.mail.ru^
+||ads.bing.com^
+||ads.microsoft.com^
+||adnxs.net^
+||onetag-sys.com^
+||smilewanted.com^
+||seedtag.com^
 ||google-analytics.com^
 ||ssl.google-analytics.com^
 ||www.google-analytics.com^
+||region1.google-analytics.com^
+||analytics.google.com^
 ||googletagmanager.com^
 ||googletagservices.com^
 ||google-analytics.de^
+||stats.g.doubleclick.net^
+||td.doubleclick.net^
 ||scorecardresearch.com^
 ||quantserve.com^
 ||hotjar.com^
@@ -98,6 +104,7 @@
 ||bat.bing.net^
 ||facebook.net^
 ||connect.facebook.net^
+||pixel.facebook.com^
 ||tr.snapchat.com^
 ||analytics.tiktok.com^
 ||ads-api.twitter.com^
@@ -106,16 +113,12 @@
 ||app-measurement.com^
 ||firebaselogging.googleapis.com^
 ||device-metrics-pa.googleapis.com^
-
-
-! Title: b255ea006 â€” Malware (starter)
-! Description: Small, conservative starter set. For production, also subscribe to a dedicated feed (e.g. URLhaus).
-! Homepage: https://github.com/b255ea006/adguard-home-blocklists
-! Expires: 3 days
-!
-! Recommended companion (external):
-! https://urlhaus.abuse.ch/downloads/hostfile/
-!
+||metrics.icloud.com^
+||telemetry.microsoft.com^
+||vortex.data.microsoft.com^
+||browser.events.data.microsoft.com^
+||mc.yandex.ru^
+||mc.yandex.com^
 ||alphastand.win^
 ||alphastand.trade^
 ||alphastand.top^
@@ -136,4 +139,11 @@
 ||hilltopads.com^
 ||juicyads.com^
 ||exoclick.com^
-
+||pushanertc.com^
+||webpushs.com^
+||onesignal.com^
+||cdn.onesignal.com^
+||truepush.com^
+||napoleanads.com^
+||adexchangegate.com^
+||adexchangescript.com^
