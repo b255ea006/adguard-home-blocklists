@@ -17,7 +17,7 @@ Prefer these as the heavy base layer; use this repo as a focused Homelab overlay
 
 - [AdGuard DNS filter](https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt)
 - [AdGuard Tracking Protection](https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt)
-- [StevenBlack hosts (unified)](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) — convert or use a hosts-compatible pipeline
+- [StevenBlack hosts (unified)](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) - convert or use a hosts-compatible pipeline
 - Malware companion: [URLhaus hostfile](https://urlhaus.abuse.ch/downloads/hostfile/)
 
 ## File mapping

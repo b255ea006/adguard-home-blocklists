@@ -40,7 +40,7 @@ SOURCES.md             # curation notes and companion feeds
 
 ## Notes
 
-- Lists are intentionally **small and maintained** — not a dump of every public blocklist.
+- Lists are intentionally **small and maintained** - not a dump of every public blocklist.
 - Prefer combining this with well-known community lists (see [SOURCES.md](SOURCES.md)) rather than replacing them.
 - Always whitelist domains that break sites you need (banking, work SSO, smart home).
 - Format: [AdGuard filter syntax](https://adguard.com/kb/general/ad-filtering/create-own-filters/)
@@ -63,4 +63,4 @@ Open an issue or PR with:
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
