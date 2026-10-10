@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild all.txt
+        run: python scripts/build_all.py
+
+      - name: Fail if all.txt is out of sync
+        run: |
+          if ! git diff --exit-code -- lists/all.txt; then
+            echo "::error::lists/all.txt is out of sync. Run: python scripts/build_all.py"
+            exit 1
+          fi
+
+      - name: Validate lists
+        run: python scripts/validate.py
