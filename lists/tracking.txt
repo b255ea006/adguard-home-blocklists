@@ -1,0 +1,50 @@
+! Title: b255ea006 â€” Tracking
+! Description: Analytics and telemetry hosts for AdGuard Home
+! Homepage: https://github.com/b255ea006/adguard-home-blocklists
+! Expires: 7 days
+!
+||google-analytics.com^
+||ssl.google-analytics.com^
+||www.google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+||google-analytics.de^
+||scorecardresearch.com^
+||quantserve.com^
+||hotjar.com^
+||static.hotjar.com^
+||script.hotjar.com^
+||mixpanel.com^
+||segment.io^
+||segment.com^
+||amplitude.com^
+||fullstory.com^
+||mouseflow.com^
+||clarity.ms^
+||www.clarity.ms^
+||newrelic.com^
+||nr-data.net^
+||sentry.io^
+||bugsnag.com^
+||heapanalytics.com^
+||kissmetrics.com^
+||chartbeat.com^
+||chartbeat.net^
+||parse.ly^
+||parsely.com^
+||pingdom.net^
+||rum-static.pingdom.net^
+||stats.wp.com^
+||pixel.wp.com^
+||bat.bing.com^
+||bat.bing.net^
+||facebook.net^
+||connect.facebook.net^
+||tr.snapchat.com^
+||analytics.tiktok.com^
+||ads-api.twitter.com^
+||static.ads-twitter.com^
+||branch.io^
+||app-measurement.com^
+||firebaselogging.googleapis.com^
+||device-metrics-pa.googleapis.com^
