@@ -1,0 +1,50 @@
+! Title: b255ea006 â€” Ads
+! Description: Common advertising / affiliate hosts for AdGuard Home
+! Homepage: https://github.com/b255ea006/adguard-home-blocklists
+! Expires: 7 days
+!
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||pagead2.googlesyndication.com^
+||adservice.google.com^
+||adservice.google.de^
+||adnxs.com^
+||adsrvr.org^
+||adform.net^
+||advertising.com^
+||adsafeprotected.com^
+||adsymptotic.com^
+||adcolony.com^
+||ad.doubleclick.net^
+||media.net^
+||outbrain.com^
+||taboola.com^
+||criteo.com^
+||criteo.net^
+||pubmatic.com^
+||rubiconproject.com^
+||openx.net^
+||casalemedia.com^
+||bidswitch.net^
+||smartadserver.com^
+||yieldmo.com^
+||moatads.com^
+||amazon-adsystem.com^
+||aax.amazon-adsystem.com^
+||fls-na.amazon-adsystem.com^
+||ads-twitter.com^
+||ads.linkedin.com^
+||ads.yahoo.com^
+||adtechus.com^
+||360yield.com^
+||contextweb.com^
+||sharethrough.com^
+||sovrn.com^
+||lijit.com^
+||spotxchange.com^
+||teads.tv^
+||triplelift.com^
+||zemanta.com^
+||mgid.com^
+||revcontent.com^
